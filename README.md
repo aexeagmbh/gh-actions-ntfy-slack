@@ -9,7 +9,7 @@ This action sends the job's status to slack.
 
 **Required** Pass in ${{job.status}}
 
-### `slack-channel`:
+### `slack-channel`
 
 **Required** The slack channel the message is sent to
 
