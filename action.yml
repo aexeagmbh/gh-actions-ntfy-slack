@@ -1,0 +1,17 @@
+---
+name: 'Notify Slack'
+description: 'Notify slack about result of GitHub Action jobs'
+author: 'AX Semantics GmbH'
+inputs:
+  job-status:
+    description: Pass in job.status
+    required: true
+  slack-channel:
+    description: The slack channel the message is sent to
+    required: true
+  slack-bot-token:
+    description: The slack bot's token
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

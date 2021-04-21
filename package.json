@@ -1,0 +1,22 @@
+{
+  "name": "gh-actions-ntfy-slack",
+  "version": "0.0.1",
+  "description": "Notify slack about result of GitHub Action jobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aexeagmbh/gh-actions-ntfy-slack.git"
+  },
+  "author": "AX Semantics GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aexeagmbh/gh-actions-ntfy-slack/issues"
+  },
+  "homepage": "https://github.com/aexeagmbh/gh-actions-ntfy-slack#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.7"
+  }
+}
