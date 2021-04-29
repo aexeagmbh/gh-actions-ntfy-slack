@@ -21,7 +21,7 @@ This action sends the job's status to slack.
 ## Example usage
 
 ```yaml
-uses: aexeagmbh/gh-actions-ntfy-slack
+uses: aexeagmbh/gh-actions-ntfy-slack@main
 with:
   job-status: ${{ job.status }}
   slack-channel: ${{ secrets.SLACK_CHANNEL }}
