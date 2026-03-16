@@ -1,5 +1,5 @@
-const core = require('@actions/core');
-const https = require('https');
+import core from '@actions/core';
+import https from 'https';
 
 async function run() {
 	const jobStatus = core.getInput('job-status');
@@ -54,7 +54,7 @@ async function send(payload) {
 }
 
 try {
-	run();
+	await run();
 } catch (error) {
 	core.setFailed(error.message);
 }

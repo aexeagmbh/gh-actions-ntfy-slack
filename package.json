@@ -1,8 +1,9 @@
 {
   "name": "gh-actions-ntfy-slack",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Notify slack about result of GitHub Action jobs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,6 @@
   },
   "homepage": "https://github.com/aexeagmbh/gh-actions-ntfy-slack#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0"
+    "@actions/core": "^3.0.0"
   }
 }
